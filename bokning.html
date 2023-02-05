@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasty Sushi</title>
+    <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html"><img id="logga" src="Tasty.jpg" alt="hem" /></a>
+            <div id="meny">
+                <a href="meny.html">Meny</a>
+                <a href="online.html">Beställ online</a>
+                <a href="bokning.html">Bordsbokning</a>
+            </div>
+        </nav>
+    </header>
+    <main id="bordsbokning">
+        <h1>Bordsbokning</h1>
+        <section id="bokning">
+            <p>För att boka bord, ring in till oss på 07xxxxxxxx eller fyll i formuläret nedan här nedan, Hoppas vi ses!
+            </p>
+            <form action="x">
+                <fieldset id="kontakt">
+                    <input type="text" name="first-name" placeholder="Förnamn" cols="10">
+                    <input type="text" name="last-name" placeholder="Efternamn">
+                    <textarea cols="40" name="message" placeholder="När vill ni boka?" rows="3"></textarea>
+                    <label>Hur många personer?<select name="antal">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                    </label>
+                    </select>
+                    <input type="submit" value="Skicka">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <dl class="info">Öppettider
+            <li>Sön-Tor: 10:00-20:00
+            </li>
+            <li>Fre-Lör: 10:00-22:00
+            </li>
+        </dl>
+        <p class="info">
+            Tasty Sushi<br />
+            Göteborgsvägen<br />
+            Göteborg
+        </p>
+        <a href="instagram.com"><img id="instagram" src="insta.png" alt="Länk till instagram"></a>
+    </footer>
+</body>
+
+</html>
